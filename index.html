@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go9x AI - AI Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="logo.png" alt="Go9X AI Logo" class="logo-image">
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="logo.png" alt="Go9X AI Logo" class="hero-logo-image">
+                </div>
+                <h1>Transforming Business with AI Innovation</h1>
+                <p>We deliver cutting-edge AI solutions that drive growth, efficiency, and competitive advantage for your business.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Services -->
+        <section id="services" class="featured-services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p class="section-subtitle">Comprehensive AI solutions tailored to your business needs</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&q=80" alt="AI Strategy" class="service-image">
+                        </div>
+                        <div class="service-icon">🤖</div>
+                        <h3>AI Strategy & Consulting</h3>
+                        <p>Develop comprehensive AI strategies aligned with your business objectives and market opportunities.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&q=80" alt="Machine Learning" class="service-image">
+                        </div>
+                        <div class="service-icon">💡</div>
+                        <h3>Machine Learning Solutions</h3>
+                        <p>Custom ML models and algorithms designed to solve your specific business challenges.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80" alt="Data Analytics" class="service-image">
+                        </div>
+                        <div class="service-icon">🔍</div>
+                        <h3>Data Analytics & Insights</h3>
+                        <p>Transform raw data into actionable insights that drive informed decision-making.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&q=80" alt="AI Integration" class="service-image">
+                        </div>
+                        <div class="service-icon">🤝</div>
+                        <h3>AI Integration</h3>
+                        <p>Seamlessly integrate AI capabilities into your existing systems and workflows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Detail -->
+        <section class="services-detail">
+            <div class="container">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🤖</div>
+                    <h2>AI Strategy & Consulting</h2>
+                    <p>Our expert consultants work with you to develop a comprehensive AI strategy that aligns with your business goals. We help you identify opportunities, assess readiness, and create a roadmap for AI implementation.</p>
+                    <ul class="service-features">
+                        <li>AI readiness assessment</li>
+                        <li>Strategic planning and roadmap development</li>
+                        <li>Technology evaluation and selection</li>
+                        <li>ROI analysis and business case development</li>
+                        <li>Change management and training</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">💡</div>
+                    <h2>Machine Learning Solutions</h2>
+                    <p>We design and develop custom machine learning models tailored to your specific business challenges. From predictive analytics to natural language processing, we deliver solutions that drive real results.</p>
+                    <ul class="service-features">
+                        <li>Custom ML model development</li>
+                        <li>Predictive analytics and forecasting</li>
+                        <li>Natural language processing (NLP)</li>
+                        <li>Computer vision solutions</li>
+                        <li>Model training and optimization</li>
+                        <li>MLOps and deployment</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🔍</div>
+                    <h2>Data Analytics & Insights</h2>
+                    <p>Transform your data into actionable insights with our advanced analytics solutions. We help you make data-driven decisions that improve performance and drive growth.</p>
+                    <ul class="service-features">
+                        <li>Data pipeline development</li>
+                        <li>Advanced analytics and reporting</li>
+                        <li>Business intelligence dashboards</li>
+                        <li>Real-time data processing</li>
+                        <li>Data visualization</li>
+                        <li>Performance metrics and KPIs</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🤝</div>
+                    <h2>AI Integration</h2>
+                    <p>Seamlessly integrate AI capabilities into your existing systems and workflows. We ensure smooth implementation with minimal disruption to your operations.</p>
+                    <ul class="service-features">
+                        <li>API development and integration</li>
+                        <li>Legacy system modernization</li>
+                        <li>Cloud and on-premise deployment</li>
+                        <li>System architecture design</li>
+                        <li>Performance optimization</li>
+                        <li>Ongoing support and maintenance</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🛡️</div>
+                    <h2>AI Security & Compliance</h2>
+                    <p>Ensure your AI solutions are secure, compliant, and ethical. We help you navigate regulatory requirements and implement best practices for AI governance.</p>
+                    <ul class="service-features">
+                        <li>AI security assessment</li>
+                        <li>Compliance and regulatory alignment</li>
+                        <li>Ethical AI framework development</li>
+                        <li>Data privacy and protection</li>
+                        <li>Risk management</li>
+                        <li>Audit and monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🚀</div>
+                    <h2>AI Training & Support</h2>
+                    <p>Empower your team with the knowledge and skills needed to leverage AI effectively. We provide comprehensive training and ongoing support.</p>
+                    <ul class="service-features">
+                        <li>Team training programs</li>
+                        <li>Workshops and seminars</li>
+                        <li>Documentation and knowledge transfer</li>
+                        <li>24/7 technical support</li>
+                        <li>Performance monitoring</li>
+                        <li>Continuous improvement</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio/Case Studies -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Case Studies</h2>
+                <p class="section-subtitle">Success stories from our clients</p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80'); background-size: cover; background-position: center;">
+                            <div class="portfolio-overlay"></div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>E-Commerce Personalization</h3>
+                            <p>Implemented AI-powered recommendation engine that increased sales by 35% and improved customer engagement.</p>
+                            <ul class="portfolio-tags">
+                                <li>Machine Learning</li>
+                                <li>Recommendation Systems</li>
+                                <li>E-Commerce</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&q=80'); background-size: cover; background-position: center;">
+                            <div class="portfolio-overlay"></div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Healthcare Diagnostics AI</h3>
+                            <p>Developed diagnostic AI system that reduced analysis time by 60% while maintaining 95% accuracy.</p>
+                            <ul class="portfolio-tags">
+                                <li>Computer Vision</li>
+                                <li>Healthcare AI</li>
+                                <li>Deep Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="portfolio-card">
+                        <div class="portfolio-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80'); background-size: cover; background-position: center;">
+                            <div class="portfolio-overlay"></div>
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Financial Fraud Detection</h3>
+                            <p>Built real-time fraud detection system that prevented $2M+ in fraudulent transactions in the first quarter.</p>
+                            <ul class="portfolio-tags">
+                                <li>Fraud Detection</li>
+                                <li>Real-time Analytics</li>
+                                <li>Risk Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-story">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=1200&q=80" alt="AI Technology" class="about-image">
+                    </div>
+                    <h2>Our Story</h2>
+                    <p>Go9x AI was founded with a vision to democratize artificial intelligence and make cutting-edge AI solutions accessible to businesses of all sizes. Since our inception, we've been at the forefront of AI innovation, helping organizations transform their operations and achieve unprecedented growth.</p>
+                    <p>Our team of expert data scientists, machine learning engineers, and AI strategists brings decades of combined experience from leading tech companies and research institutions. We combine deep technical expertise with business acumen to deliver solutions that drive real value.</p>
+                    <p>Today, we're proud to have helped hundreds of companies across various industries leverage AI to solve complex challenges, improve efficiency, and create new opportunities for growth.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & Vision -->
+        <section class="mission-vision">
+            <div class="container">
+                <div class="mission-vision-grid">
+                    <div class="mission-card">
+                        <h2>Our Mission</h2>
+                        <p>To empower businesses with innovative AI solutions that drive growth, efficiency, and competitive advantage. We believe that every organization, regardless of size, should have access to world-class AI capabilities.</p>
+                    </div>
+                    <div class="vision-card">
+                        <h2>Our Vision</h2>
+                        <p>To be the leading AI agency that transforms how businesses operate, making AI an integral part of every successful organization's strategy. We envision a future where AI enhances human capabilities and creates unprecedented value.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values -->
+        <section class="values">
+            <div class="container">
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>Innovation</h3>
+                        <p>We stay at the cutting edge of AI technology, continuously exploring new possibilities and pushing boundaries.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Excellence</h3>
+                        <p>We are committed to delivering the highest quality solutions and exceeding client expectations.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Integrity</h3>
+                        <p>We conduct business with honesty, transparency, and ethical practices in everything we do.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Collaboration</h3>
+                        <p>We work closely with our clients as partners, ensuring their success is our success.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="team">
+            <div class="container">
+                <h2>Our Team</h2>
+                <p class="section-subtitle">Meet the experts behind Go9x AI</p>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-avatar">
+                            <div class="avatar-placeholder">JD</div>
+                        </div>
+                        <h3>Jane Doe</h3>
+                        <p class="team-role">CEO & Founder</p>
+                        <p>20+ years in AI and machine learning. Former lead researcher at top tech companies.</p>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar">
+                            <div class="avatar-placeholder">JS</div>
+                        </div>
+                        <h3>John Smith</h3>
+                        <p class="team-role">Chief Technology Officer</p>
+                        <p>Expert in ML systems architecture and large-scale AI deployments.</p>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar">
+                            <div class="avatar-placeholder">SW</div>
+                        </div>
+                        <h3>Sarah Williams</h3>
+                        <p class="team-role">Head of Data Science</p>
+                        <p>PhD in Computer Science with specialization in deep learning and neural networks.</p>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar">
+                            <div class="avatar-placeholder">MJ</div>
+                        </div>
+                        <h3>Michael Johnson</h3>
+                        <p class="team-role">Lead AI Engineer</p>
+                        <p>Specialized in NLP and computer vision with 15+ years of industry experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p class="section-subtitle">Get in touch with our team</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's Start a Conversation</h3>
+                        <p>Have a project in mind? Want to learn more about our services? We'd love to hear from you. Fill out the form or reach out using the contact information below.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@go9x-ai.com">info@go9x-ai.com</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h4>Office Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+                            </div>
+                            <div class="contact-item">
+                                <h4>Address</h4>
+                                <p>123 Innovation Drive<br>Tech City, TC 12345<br>United States</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links contact-social">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                                <a href="#" aria-label="Twitter">Twitter</a>
+                                <a href="#" aria-label="GitHub">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <span class="error-message" id="subjectError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                            <div class="form-success" id="formSuccess" style="display: none;">
+                                <p>Thank you! Your message has been sent successfully. We'll get back to you soon.</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Let's discuss how AI can drive innovation and growth for your organization.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Go9x-AI</h3>
+                    <p>Leading AI agency delivering innovative solutions for businesses worldwide.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: mathan@go9x-ai.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Go9x-AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Button -->
+    <div class="floating-cta" id="floatingCta">
+        <a href="#contact" class="floating-cta-btn">
+            <span class="floating-cta-text">Help me go9x</span>
+            <span class="floating-cta-icon">→</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
